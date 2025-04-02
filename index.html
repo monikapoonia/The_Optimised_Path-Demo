@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pathfinding Algorithms Visualizer</h1>
+    <div class="controls">
+        <button onclick="setAlgorithm('dijkstra')">Dijkstra</button>
+        <button onclick="setAlgorithm('astar')">A*</button>
+        <button onclick="setAlgorithm('bellmanford')">Bellman-Ford</button>
+        <button onclick="findPath()">Find Path</button>
+        <button onclick="resetGrid()">Reset</button>
+    </div>
+    <div id="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
